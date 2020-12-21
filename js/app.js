@@ -1,5 +1,6 @@
 let userSubmitBtn = document.getElementById("userSubmitBtn");
 let userLocalStorage = JSON.parse(localStorage.getItem("userLocalStorage"));
+// User Name Set To Local Storage
 userSubmitBtn.addEventListener("click",function(){
     let userNameInput = document.getElementById("userNameInput");
     if(userNameInput.value !== ""){
