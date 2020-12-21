@@ -24,7 +24,7 @@ function generateQuestion() {
     { id: "9", question: "Wait till you find a sinful unforgettable Doughnut?" }];
     localStorage.setItem("arrayOfQuestions", JSON.stringify(questionObject));
 }
-// Generate Div InnerText And Button
+// Generate Div InnerText And YES/NO Button
 function generateQuestionOnClick(selectedId) {
     let arrayOfUserSelection = JSON.parse(localStorage.getItem("arrayOfUserSelection"));
     let arrayOfQuestions = JSON.parse(localStorage.getItem("arrayOfQuestions"));
@@ -73,8 +73,7 @@ function onCallOfButtonClick(btnText, objQuestion) {
 }
 // Next Btn Click
 function  nxtBtnClick(){
-    setTimeout(function(){ document.location.href = "result.html";}, 3000);   
-
+    setTimeout(function(){ document.location.href = "result.html";}, 3000);
 }
 // Generate Element
 function createElements(parentName, formType, className, idName, childInnerText, childValue, childName, functionClick) {

@@ -5,10 +5,9 @@
 body{
     margin:0px;
     padding:0px;
+    /* background-image: url(../images/background_image_02.png); */
     background-color: rgb(247,195,228);
     font-family: "Nunito", sans-serif;
-    /* background-image: url("../images/doughnut-background.jpg"); */
-    /* background-color: #cccccc; */
     height: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -21,23 +20,17 @@ body{
 .mainContainer{
   position: absolute;
   top:250px;
-  /* display:flex; */
   justify-content: center;
   align-items: center;
   width:100%;
-  /* left:50px; */
-  /* border:1px solid black; */
 }
 .containerDiv{
     width:80%;
     left:65px;
     border-radius: 4px;
-    /* padding:20px; */
     text-align: center;  
     position: relative;
     justify-content: center;
-    /* align-self:center; */
-    /* padding-bottom:60px; */
     margin:0 auto;
 }
 .nxtButton{
@@ -48,10 +41,8 @@ body{
     align-items: center;
     left:55px;
     margin:0 auto;
-
 }
 .decisionQuestion{
-    /* display:none; */
     text-shadow: 2px 2px 4px rgba(000, 000, 000, 0.2);    
     font-size: 23px;
     transition-delay: 4s;
@@ -65,9 +56,7 @@ body{
     list-style-type: none;
     position: relative;
     padding: 20px 5px 0 5px;
-
 }
-
 .tree li::before,.tree li::after{
     content:"";
     position:absolute;
@@ -75,8 +64,7 @@ body{
     right:50%;
     border-bottom: 1px solid green;
     width:80%;
-    height:0px;
-    
+    height:0px;    
 }
 .tree .createYesLi{
     position: absolute;
